@@ -95,7 +95,7 @@ function projects() {
             className=" mb-16 "
             text="Imagination Trumps Knowlage!"
           />
-          <div className="grid grid-cols-12 gap-24 ">
+          <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12">
               <FeatureProject
                 title="Crypto Screener Application"
