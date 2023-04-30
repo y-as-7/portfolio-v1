@@ -8,7 +8,8 @@ import article1 from "../../public/images/articles/create loading screen in reac
 import article2 from "../../public/images/articles/create modal component in react using react portals.png";
 import article3 from "../../public/images/articles/What is Redux with easy explanation.png";
 import article4 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import { motion, useMotionValue } from "framer-motion";
+import { AnimatePresence, motion, useMotionValue } from "framer-motion";
+import TransitionEffect from "@/components/hooks/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -109,6 +110,11 @@ function articles() {
         <title>YA | Articles Page</title>
         <meta name="description" content="it is me youssef askar" />
       </Head>
+      <AnimatePresence mode="wait">
+
+
+      <TransitionEffect/>
+      </AnimatePresence>
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className=" pt-16 ">
           <AnimatedText

@@ -6,7 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import { GithubIcon } from "@/components/Icon";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import TransitionEffect from "@/components/hooks/TransitionEffect";
 const FramerImage = motion(Image);
 const FeatureProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -115,6 +116,11 @@ function projects() {
         <title>YA | Projects Page</title>
         <meta name="description" content="it is me youssef askar" />
       </Head>
+      <AnimatePresence mode="wait">
+
+
+      <TransitionEffect/>
+      </AnimatePresence>
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
