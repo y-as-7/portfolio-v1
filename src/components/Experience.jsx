@@ -14,9 +14,9 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
     >
       <Lilcon reference={ref} />
       <motion.div
-      initial={{y:50}}
-      whileInView={{y:0}}
-      transition={{duration:0.5, type:"spring" }}
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position} &nbsp;{" "}
@@ -56,48 +56,40 @@ function Experience() {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            companyLink="www.google.com"
-            company="Google"
-            time="2022-present"
-            address="Mountain View, CA"
+            position="Teacher"
+            companyLink="www.askarweb.online" 
+            company="askarweb"
+            time="2023-present"
+            address="site"
             work="
-                work='Worked on a team responsible for developing new features for Googles
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
+                worked as a programming teatch in my site askarweb to learn people all things about web programmimg and I like teaching very much "
           />
           <Details
-            position="Software Engineer"
-            companyLink="www.google.com"
-            company="Google"
+            position="Youtuber"
+            companyLink="www.youtube.com"
+            company="YouTube"
+            time="2023-present"
+            address="Home"
+            work="worked as youtuber making content about programming stuff and learning people programming by making educational videos and you can check my channel askarweb"
+          />
+
+          <Details
+            position="Frontend Developer"
+            companyLink="https://www.freelancer.com/?gclid=CjwKCAjwo7iiBhAEEiwAsIxQEfLKzwmhmPY0hv7VC77-HX1P3Z8ihjh-PJK_pp7Tb1DiCp-3xGK4gBoC-AkQAvD_BwE&ft_prog=ABL&ft_prog_id=617725303593"
+            company="Freelancer"
             time="2022-present"
-            address="Mountain View, CA"
+            address="Home"
             work="
-                work='Worked on a team responsible for developing new features for Googles
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
+                worked as freelancer at the freelancer platform and have a good rating profile, working with teams to make a masive projects and nothing like working with other people it is cool"
           />
           <Details
-            position="Software Engineer"
-            companyLink="www.google.com"
-            company="Google"
-            time="2022-present"
-            address="Mountain View, CA"
+            position="Freelancer"
+            companyLink="https://www.fiverr.com/?utm_source=265092&utm_medium=cx_affiliate&utm_campaign=&afp=EG-Al%20Mansurah&cxd_token=265092_20418827_EG-Al%20Mansurah&show_join=true"
+            company="Fiver"
+            time="2021-present"
+            address="Home"
             work="
-                work='Worked on a team responsible for developing new features for Googles
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
-          />
-          <Details
-            position="Software Engineer"
-            companyLink="www.google.com"
-            company="Google"
-            time="2022-present"
-            address="Mountain View, CA"
-            work="
-                work='Worked on a team responsible for developing new features for Googles
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization."
+                worked in this platform as a freelancer by offering my works to clients by giving them what they want whether the work is small or masive"
           />
         </ul>
       </div>

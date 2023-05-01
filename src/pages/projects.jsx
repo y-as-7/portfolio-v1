@@ -4,7 +4,10 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/imdb.jpg";
+import project2 from "../../public/images/projects/cisser.jpg";
+import project3 from "../../public/images/projects/jobs.jpg";
+import project4 from "../../public/images/projects/real.jpg";
 import { GithubIcon } from "@/components/Icon";
 import { AnimatePresence, motion } from "framer-motion";
 import TransitionEffect from "@/components/hooks/TransitionEffect";
@@ -130,75 +133,46 @@ function projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeatureProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="IMDB CLONE"
+                summary="responsive website with dark mode
+                dynamic website with API
+                made by Next.JS and Tailwind CSS"
+                link="https://imdb-clone-murex.vercel.app/"
                 type="Feature Projects"
                 img={project1}
-                github="/"
+                github="https://github.com/y-as-7/IMDB-CLONE"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="ROCK PAPER SCISSERS GAME"
+                summary="simple game, single page app
+                made by HTML CSS JS"
+                link="https://y-as-7.github.io/rock-paper-scissors-game/"
                 type="Feature Projects"
-                img={project1}
-                github="/"
+                img={project2}
+                github="https://y-as-7.github.io/rock-paper-scissors-game/"
               />
             </div>
             <div className="col-span-6  sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="JOB LISTING"
+                summary="react app with filters,
+                made by react and tailwind."
+                link="https://y-as-7.github.io/job-lisitng"
                 type="Feature Projects"
-                img={project1}
-                github="/"
+                img={project3}
+                github="https://github.com/y-as-7/job-lisitng"
               />
             </div>
-            <div className="col-span-12 ">
+            <div className="col-span-12">
               <FeatureProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
+                title="Real Estate Website"
+                summary="responsive website made by Next.JS and Tailwind CSS"
+                link="https://real-estate-website-rust.vercel.app/"
                 type="Feature Projects"
-                img={project1}
-                github="/"
-              />
-            </div>
-
-            <div className="col-span-6  sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
-                type="Feature Projects"
-                img={project1}
-                github="/"
-              />
-            </div>
-            <div className="col-span-6  sm:col-span-12">
-              <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
-                type="Feature Projects"
-                img={project1}
-                github="/"
+                img={project4}
+                github="https://github.com/y-as-7/Real-Estate-Website"
               />
             </div>
           </div>

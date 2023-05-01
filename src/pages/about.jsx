@@ -53,23 +53,14 @@ function about() {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+              I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices.
+               My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do. 
               </p>
               <p className="font-medium my-4">
-                I believe that design is about more than just making things look
-                pretty – it's about solving problems and creating intuitive,
-                enjoyable experiences for users.
+              I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development.
               </p>
               <p className="font-medium">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+              While a student at Beni suef Universities, I studied Mathematics, and I believe that my understanding of problem solving and complex algorithms are also skills that have and will continue to contribute to my overall success as a developer.
               </p>
             </div>
 
@@ -86,7 +77,7 @@ function about() {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center ">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl ">
-                  <AnimatedNumbers value={40} /> +
+                  <AnimatedNumbers value={15} /> +
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75  xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Satisfied Clients
@@ -102,7 +93,7 @@ function about() {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={2} />+
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Years of Experience

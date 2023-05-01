@@ -88,7 +88,7 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mr-4" />
           <CustomLink href="/projects" title="Projects" className="mr-4" />
-          <CustomLink href="/articles" title="Articles" className="mr-4" />
+          {/* <CustomLink href="/articles" title="Articles" className="mr-4" /> */}
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
@@ -98,14 +98,14 @@ const NavBar = () => {
             }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
-            href="/"
+            href="https://twitter.com/y_as_17"
             target={"_blank"}
           >
             <TwitterIcon />
           </motion.a>
 
           <motion.a
-            href="/"
+            href="https://github.com/y-as-7"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{
@@ -117,7 +117,7 @@ const NavBar = () => {
           </motion.a>
 
           <motion.a
-            href="/"
+            href="https://www.linkedin.com/in/youssef-askar-023a02251/"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{
@@ -128,20 +128,10 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
 
-          <motion.a
-            href="/"
-            target={"_blank"}
-            className="w-6 mx-3 bg-light rounded-full"
-            whileHover={{
-              y: -2,
-            }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <PinterestIcon />
-          </motion.a>
+          
 
           <motion.a
-            href="/"
+            href="https://www.instagram.com/y.as.7/"
             target={"_blank"}
             className="w-6 ml-3"
             whileHover={{
@@ -179,7 +169,7 @@ transition={{duration:.4}}
           <CustoMobileLink href="/" title="Home" className="" toggle={handleClick}/>
           <CustoMobileLink href="/about" title="About" className="" toggle={handleClick}/>
           <CustoMobileLink href="/projects" title="Projects" className="" toggle={handleClick}/>
-          <CustoMobileLink href="/articles" title="Articles" className="" toggle={handleClick}/>
+          {/* <CustoMobileLink href="/articles" title="Articles" className="" toggle={handleClick}/> */}
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap mt-2">
@@ -189,14 +179,14 @@ transition={{duration:.4}}
             }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3 sm:mx-1"
-            href="/"
+            href="https://twitter.com/y_as_17"
             target={"_blank"}
           >
             <TwitterIcon />
           </motion.a>
 
           <motion.a
-            href="/"
+            href="https://github.com/y-as-7"
             target={"_blank"}
             className="w-6 mx-3 sm:mx-1 bg-light rounded-full dark:bg-dark"
             whileHover={{
@@ -209,7 +199,7 @@ transition={{duration:.4}}
           </motion.a>
 
           <motion.a
-            href="/"
+            href="https://www.linkedin.com/in/youssef-askar-023a02251/"
             target={"_blank"}
             className="w-6 mx-3 sm:mx-1"
             whileHover={{
@@ -220,20 +210,9 @@ transition={{duration:.4}}
             <LinkedInIcon />
           </motion.a>
 
+          
           <motion.a
-            href="/"
-            target={"_blank"}
-            className="w-6 mx-3 sm:mx-1 "
-            whileHover={{
-              y: -2,
-            }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <PinterestIcon className={'bg-light rounded-full'}/>
-          </motion.a>
-
-          <motion.a
-            href="/"
+            href="https://www.instagram.com/y.as.7/"
             target={"_blank"}
             className="w-6 ml-3 sm:mx-1"
             whileHover={{
