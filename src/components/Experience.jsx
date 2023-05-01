@@ -62,7 +62,7 @@ function Experience() {
             time="2023-present"
             address="site"
             work="
-                worked as a programming teatch in my site askarweb to learn people all things about web programmimg and I like teaching very much "
+                worked as a programming teatcher in my site askarweb to learn people all things about web programmimg and I like teaching very much "
           />
           <Details
             position="Youtuber"
