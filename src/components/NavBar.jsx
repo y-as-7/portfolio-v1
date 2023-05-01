@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
+import UseThemeSwitcher from "./hooks/UseThemeSwitcher";
 import {
   DribbbleIcon,
   GithubIcon,
@@ -12,7 +13,6 @@ import {
   TwitterIcon,
 } from "./Icon";
 import { motion } from "framer-motion";
-import UseThemeSwitcher from "./hooks/useThemeSwitcher";
 
 const CustoMobileLink = ({ href, title, className = "",toggle }) => {
   const router = useRouter();
